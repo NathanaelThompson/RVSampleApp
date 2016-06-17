@@ -25,7 +25,7 @@
                Grid.Column="0" 
                HorizontalContentAlignment="Center" 
                VerticalContentAlignment="Center"/>
-            <Button Name="testButton" Grid.Column="1" Content="!"/>
+            <Button Name="testButton" Grid.Column="1" Content="!" Click="onButtonClick"/>
         </Grid>
     </Border>
 </UserControl>

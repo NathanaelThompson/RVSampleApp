@@ -24,5 +24,9 @@ namespace RVSampleApp
         {
             InitializeComponent();
         }
+        void onButtonClick(object o, RoutedEventArgs e)
+        {
+            MessageBox.Show("This button does nothing!", "Nothing at all!", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
     }
 }
